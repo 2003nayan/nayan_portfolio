@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import catImage from "../../../public/0002.jpg"
+import catImage from "../../../public/0002.jpg";
 
 export const AnimeLinkCard = () => {
   return (
@@ -15,7 +15,7 @@ export const AnimeLinkCard = () => {
           priority
         />
         <p className="font-bold -rotate-90 absolute top-10 bottom-16 -left-[3.70rem] text-white w-40">
-          About 私
+          About •
         </p>
         <ArrowUpRight className="absolute text-white transition-all group-hover:scale-105 top-2 right-2 border border-white bg-black rounded-full p-1" />
       </div>

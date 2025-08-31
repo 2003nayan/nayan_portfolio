@@ -42,7 +42,7 @@ export const GHStats = () => {
           <GitHubStatsData label="🟡 Stars" value={stats.stars} />
           <GitHubStatsData label="㊙ Followers" value={stats.followers} />
           <GitHubStatsData label="🟢 PRs" value={stats.prs} />
-          <GitHubStatsData label="⚪ issues" value={stats.issues} />
+          <GitHubStatsData label="⚪ Issues" value={stats.issues} />
         </div>
       </a>
       <span className="absolute bottom-2 right-2">
