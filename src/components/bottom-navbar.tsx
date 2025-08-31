@@ -39,25 +39,25 @@ export default function BottomNavbar() {
           </DockIcon>
         ))}
         <Separator orientation="vertical" className="h-full py-2" />
-        <DockIcon>
+        {/* <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
               <Link href={DATA.resume}>
-              <Button
-                variant="ghost"
-                type="button"
-                size="icon"
-                className="px-2"
-              >
-                <Paperclip />
-              </Button>
+                <Button
+                  variant="ghost"
+                  type="button"
+                  size="icon"
+                  className="px-2"
+                >
+                  <Paperclip />
+                </Button>
               </Link>
             </TooltipTrigger>
             <TooltipContent>
               <p>Resume</p>
             </TooltipContent>
           </Tooltip>
-        </DockIcon>
+        </DockIcon> */}
 
         <DockIcon>
           <Tooltip>
